@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTools.Library", "ApiTools.Library\ApiTools.Library.csproj", "{1CFD27D8-B8BC-47D9-9901-0AAEA6578D89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTools.UI", "ApiTools.UI\ApiTools.UI.csproj", "{2362F295-F062-46AD-97DC-856B2381DF20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CFD27D8-B8BC-47D9-9901-0AAEA6578D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CFD27D8-B8BC-47D9-9901-0AAEA6578D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CFD27D8-B8BC-47D9-9901-0AAEA6578D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CFD27D8-B8BC-47D9-9901-0AAEA6578D89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2362F295-F062-46AD-97DC-856B2381DF20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2362F295-F062-46AD-97DC-856B2381DF20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2362F295-F062-46AD-97DC-856B2381DF20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2362F295-F062-46AD-97DC-856B2381DF20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FC07EB3-AE6B-4166-8A21-205C039FE441}
+	EndGlobalSection
+EndGlobal
