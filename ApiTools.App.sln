@@ -8,8 +8,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTools.UI", "ApiTools.UI\ApiTools.UI.csproj", "{2362F295-F062-46AD-97DC-856B2381DF20}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E763B5EE-3D21-43F2-B839-BCBF816FD0EB}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{9E1D38D3-D7D8-494E-9C0F-AFD15AEF4218}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,9 +29,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{9E1D38D3-D7D8-494E-9C0F-AFD15AEF4218} = {E763B5EE-3D21-43F2-B839-BCBF816FD0EB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0FC07EB3-AE6B-4166-8A21-205C039FE441}

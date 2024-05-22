@@ -54,9 +54,9 @@ partial class Dashboard
         apiLabel.AutoSize = true;
         apiLabel.Location = new Point(66, 107);
         apiLabel.Name = "apiLabel";
-        apiLabel.Size = new Size(53, 32);
+        apiLabel.Size = new Size(60, 32);
         apiLabel.TabIndex = 1;
-        apiLabel.Text = "API:";
+        apiLabel.Text = "URL:";
         // 
         // apiText
         // 
@@ -101,9 +101,9 @@ partial class Dashboard
         // 
         statusStrip.BackColor = Color.Transparent;
         statusStrip.Items.AddRange(new ToolStripItem[] { systemStatus });
-        statusStrip.Location = new Point(0, 577);
+        statusStrip.Location = new Point(0, 592);
         statusStrip.Name = "statusStrip";
-        statusStrip.Size = new Size(991, 22);
+        statusStrip.Size = new Size(959, 22);
         statusStrip.TabIndex = 7;
         statusStrip.Text = "statusStrip1";
         // 
@@ -119,7 +119,7 @@ partial class Dashboard
         AutoScaleDimensions = new SizeF(13F, 32F);
         AutoScaleMode = AutoScaleMode.Font;
         BackColor = Color.LightGray;
-        ClientSize = new Size(991, 599);
+        ClientSize = new Size(959, 614);
         Controls.Add(statusStrip);
         Controls.Add(responseLabel);
         Controls.Add(responseWindow);
@@ -128,6 +128,7 @@ partial class Dashboard
         Controls.Add(apiLabel);
         Controls.Add(formHeader);
         Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+        FormBorderStyle = FormBorderStyle.Fixed3D;
         Margin = new Padding(6);
         Name = "Dashboard";
         Text = "Api Tools";
